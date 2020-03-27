@@ -9,8 +9,10 @@
 
   &--centered {
     text-align: center;
+  }
 
-    @mixin atSmall {
+  &--l-until-large {
+    @mixin atLarge {
       text-align: left;
     }
   }
