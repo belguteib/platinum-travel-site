@@ -9,6 +9,10 @@
 
   &--centered {
     text-align: center;
+
+    @mixin atSmall {
+      text-align: left;
+    }
   }
 
   &--orange {
