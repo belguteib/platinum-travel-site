@@ -107,6 +107,7 @@
     padding-top: 90px;
 
     @mixin atMedium {
+      display: block;
       opacity: 1;
       transform: scale(1);
       padding-top: 0;
