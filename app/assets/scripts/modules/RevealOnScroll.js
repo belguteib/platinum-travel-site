@@ -16,9 +16,8 @@ class RevealOnScroll {
     window.addEventListener(
       "resize",
       debouce(() => {
-        console.log("hiigdlee");
         this.browserHeight = window.innerHeight;
-      }, 300)
+      }, 333)
     );
   }
 
